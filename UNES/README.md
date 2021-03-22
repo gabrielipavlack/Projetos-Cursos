@@ -5,10 +5,15 @@ Este projeto consiste na criação de um website para uma universidade fictícia
 <h2>O projeto:</h2>
 
 <h3>Início</h3>
+
 ![](screenshot1.PNG)
+
 <h3>Quem Somos</h3>
+
 ![](screenshot2.PNG)
+
 <h3>Contato</h3>
+
 ![](screenshot3.PNG)
 
 <hr>
