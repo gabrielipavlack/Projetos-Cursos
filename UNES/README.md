@@ -5,6 +5,8 @@ Este projeto consiste na criação de um website para uma universidade fictícia
 <h2>O projeto:</h2>
 
 ![](screenshot1.PNG)
+<br><br>
+
 ![](screenshot2.PNG)
 ![](screenshot3.PNG)
 
