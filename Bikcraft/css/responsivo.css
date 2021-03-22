@@ -1,0 +1,258 @@
+/* tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*HOME:*/
+  .produtos-lista li p {
+    margin: 35px 20px 10px 20px;
+  }
+
+  .qualidade:after {
+    right: 72px;
+  }
+
+  .lista-qualidade li {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .footer-social ul li a img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /*SOBRE:*/
+
+  .missao-sobre {
+    padding-top: 20px;
+  }
+  .qualidade-sobre {
+    padding-bottom: 0;
+  }
+  .qualidade-sobre:after {
+    right: 72px;
+  }
+  .missao-sobre p {
+    font-size: 15px;
+  }
+  .missao-sobre ul li {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  /*PRODUTOS:*/
+  .produtos-item {
+    padding-top: 20px;
+  }
+
+  .produto-icone {
+    background: #000;
+    padding: 41px 0;
+  }
+
+  .produtos-item h2 {
+    top: -150px;
+  }
+
+  .produto-info p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: 122px;
+  }
+
+  .produto-info ul li {
+    font-size: 14px;
+    line-height: 10px;
+    width: 181px;
+  }
+}
+
+/* smartphones */
+@media only screen and (max-width: 787px) {
+  /*HEADER */
+  .header {
+    position: relative; /* não fica fixo ao scrollar */
+    padding: 7px 0 0 0;
+  }
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+  .header-menu {
+    text-align: center;
+  }
+
+  .header-menu ul li {
+    margin: 0;
+  }
+
+  .header-menu ul li a {
+    border: 4px solid #000;
+    width: 180px;
+    display: block;
+    /* aumentar a área do botão: */
+    padding: 8px 0;
+    margin-bottom: 10px;
+  }
+
+  .header-menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  .header a.ativo {
+    border-color: white;
+  }
+
+  /*HOME - INTRODUÇÃO*/
+  .introducao {
+    margin-top: 0;
+    padding-top: 20px;
+    background: url("../img/home/bg-mobile.jpg") no-repeat center;
+  }
+
+  .introducao h1 {
+    padding-top: 60px;
+    font-size: 40px;
+  }
+  /*HOME - PRODUTOS */
+  .produtos {
+    padding-top: 20px;
+  }
+  .produtos-lista li p {
+    margin: 15px auto;
+    padding-bottom: 10px;
+  }
+
+  .call-to-action {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
+  /*HOME - PORTFOLIO */
+  .portfolio {
+    padding: 2em 0;
+  }
+  /*HOME - QUALIDADE */
+
+  .qualidade {
+    padding: 2em 0;
+  }
+
+  .qualidade:after {
+    display: none;
+  }
+
+  .lista-qualidade li {
+    padding-bottom: 1em;
+  }
+
+  /*SOBRE:*/
+
+  .introducao-interna {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .missao-sobre {
+    padding-top: 20px;
+  }
+  .missao-sobre p {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .missao-sobre ul li {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .qualidade-sobre {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .qualidade-sobre:after {
+    display: none;
+  }
+
+  /*PRODUTOS:*/
+
+  .produtos-item {
+    padding-top: 30px;
+  }
+  .produtos-item h2 {
+    top: -90px;
+    font-size: 24px;
+    margin-bottom: -67px;
+  }
+
+  .produtos-item h2:before {
+    width: 40px;
+    height: 2px;
+  }
+  .produtos-item h2:after {
+    width: 40px;
+    height: 2px;
+  }
+
+  .produto-icone {
+    padding: 0;
+  }
+
+  .produto-info p {
+    font-size: 14px;
+    line-height: 18px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .produto-info ul li {
+    font-size: 14px;
+    line-height: 10px;
+    width: 149px;
+  }
+
+  .orcamento {
+    margin-top: 30px;
+  }
+  .form {
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+  .orcamento-infos {
+    padding-left: 0;
+  }
+  .orcamento-infos span {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /*PORTFOLIO */
+  .quote-cliente p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .quote-cliente cite {
+    font-size: 14px;
+  }
+
+  /*CONTATO */
+  .contato-form {
+    padding-right: 0;
+  }
+  .contato-form input {
+    padding: 6px;
+  }
+  .contato-form textarea {
+    height: 80px;
+    padding: 0;
+  }
+  .contato-infos {
+    padding-top: 35px;
+    padding-left: 0;
+  }
+
+  .contato-infos span {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .contato-mapa {
+    margin-top: 20px;
+  }
+}

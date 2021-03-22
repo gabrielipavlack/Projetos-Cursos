@@ -1,0 +1,470 @@
+/* Geral */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875em;
+  line-height: 1.25em;
+}
+
+.btn {
+  border: 0.25em solid #fec63e;
+  padding: 0.625em 1.875em;
+  color: #fec63e;
+  font-size: 0.875em;
+  font-weight: bold;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+img {
+  display: block;
+  /* macete para deixar a img fluida: */
+  max-width: 100%;
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+  transition: 5ms;
+}
+
+.btn.btn-fundo-branco:hover {
+  color: black;
+  border-color: black;
+  transition: 5ms;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  letter-spacing: 0.1em;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 3.75em;
+  height: 0.2em;
+  background: black;
+  margin: 0.625em auto;
+}
+
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 3.75em;
+  height: 0.2em;
+  background: black;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fec63e;
+  padding: 0.9375em 0;
+  z-index: 4;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 1.5625em;
+  margin-top: 1.25em;
+}
+
+.header-menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  line-height: 1.25em;
+  /* aumentar a área do botão: */
+  padding: 0.625em 0;
+}
+
+.header-menu ul li a:hover {
+  color: white;
+  transition: 5ms;
+}
+
+.header a.ativo {
+  color: white;
+}
+
+/* home */
+
+.introducao {
+  width: 100%;
+  height: 23.75em;
+  background: url("../img/home/bg.jpg") no-repeat center;
+  margin-top: 5.75em;
+  text-align: center;
+  padding-top: 5em;
+  background-size: cover;
+}
+
+.introducao h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: ""; /*elemento CSS */
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 0.625em auto;
+}
+
+.quote-externo {
+  max-width: 20em;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 2.5em;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: ""; /*elemento CSS */
+  display: block;
+  width: 3.75em;
+  height: 3px;
+  background: white;
+  margin: 0.875em auto 0.625em auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos-lista li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos-lista li img {
+  margin: 0 auto;
+}
+.produtos-icon {
+  background: black;
+  padding: 1.25em;
+}
+
+.produtos-lista li h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+  line-height: 1.5625em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+}
+
+.produtos-lista li h3:after {
+  content: "";
+  display: block;
+  width: 3.75em;
+  height: 0.18em;
+  background: black;
+  margin: 0.25em auto;
+}
+
+.produtos-lista li p {
+  max-width: 16.25em;
+  margin: 15px auto;
+  letter-spacing: 0.03em;
+}
+
+.call-to-action {
+  clear: both;
+  padding-top: 1.875em;
+  text-align: center;
+  /* os elementos acima estão com float, precisa-se fazer um clear both
+  background: blue; */
+}
+
+.call-to-action p {
+  letter-spacing: 0.03em;
+  margin-bottom: 1.875em;
+}
+
+/* portfolio */
+
+.portfolio {
+  width: 100%;
+  background: black;
+  padding: 2.5em 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+.portfolio .subtitulo:after {
+  background: #fec63e;
+}
+
+.portfolio-lista li:last-child {
+  margin-top: 1.25em;
+}
+
+.portfolio .call-to-action p {
+  color: white;
+}
+
+/* qualidade */
+
+.qualidade {
+  padding: 3.75em 0;
+}
+.qualidade:after {
+  content: "";
+  width: 39.625em;
+  height: 5.1875em;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  /* posicionar em cima da logo amarelo */
+  position: absolute;
+  top: 15.6875em;
+  right: 10.625em;
+  z-index: -1;
+}
+.qualidade img {
+  margin: 0 auto;
+}
+
+.lista-qualidade {
+  padding-top: 3.125em;
+  overflow: auto; /* clear-fix -- limpar flutuação */
+}
+.lista-qualidade li {
+  text-align: center;
+  padding: 0 2.5em;
+  padding-bottom: 3em;
+}
+
+.lista-qualidade li h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+  line-height: 1.5625em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+}
+
+.lista-qualidade li h3:after {
+  content: "";
+  display: block;
+  width: 3.75em;
+  height: 0.18em;
+  background: black;
+  margin: 0.5em auto;
+}
+
+/* footer */
+
+.break {
+  width: 100%;
+  height: 220px;
+  background: url("../img/esporte-3.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.break .quote-externo {
+  max-width: 400px;
+}
+
+.footer {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+  padding-right: 120px;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social ul li a {
+  display: block;
+  border: 3px solid #fec63e;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.footer-social ul li a:hover {
+  border-color: white;
+}
+
+.copyright {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
+}
+
+/*JAVASCRIPT:*/
+
+/*adicionar as configurações apenas se o js existir, pq caso dê algum erro com o js, as imagens continuarão aparecendo normalmente*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px; /*coloca os números para o lado de fora */
+  overflow: hidden; /*não mostra nada que ficou para o lado de fora */
+}
+.js [data-slide-nav] > button.active {
+  background: #fec454;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+/* evitar spam */
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}
+
+/* formulário email */
+
+#form-sucesso {
+  color: #31aa31;
+  font-weight: bold;
+}
+
+#form-erro {
+  color: red;
+  font-weight: bold;
+}

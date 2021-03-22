@@ -1,0 +1,181 @@
+.interna_produtos {
+  background: url("../img/products/products-bg.jpg") no-repeat center;
+  background-size: cover; /* expande o máximo em telas maiores; deve ser colocado abaixo do background */
+}
+
+.produtos-item {
+  padding-top: 60px;
+}
+
+.produto-icone {
+  background: #000;
+  padding: 70px 0;
+}
+
+.produto-icone img {
+  margin: 0 auto;
+}
+
+.produtos-item h2 {
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -56px;
+}
+
+.produtos-item h2:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 8px auto;
+}
+
+.produtos-item h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+.produto-info {
+  background: #000;
+}
+
+.produto-info p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+  height: 180px;
+}
+
+.produto-info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+  font-weight: bold;
+}
+
+.produto-info ul li:nth-child(1),
+.produto-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+/*pegar os números ímpares da lista */
+.produto-info ul li:nth-child(odd) {
+  margin-right: 2px;
+}
+
+/*Formulário orçamento */
+
+.orcamento {
+  background: #000;
+  width: 100%;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.orcamento h2 {
+  color: #fec63e;
+}
+
+.orcamento h2:after {
+  background: #fec63e;
+}
+
+.form {
+  padding-right: 160x;
+}
+
+.form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form textarea {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  height: 120px;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form button {
+  background: none;
+  padding: 7px 30px;
+}
+
+.orcamento-infos {
+  color: #fff;
+  padding-left: 100px;
+}
+
+.orcamento-infos h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.orcamento-infos span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.email-orcamento {
+  margin-bottom: 40px;
+}
+
+.orcamento-infos ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.orcamento-infos ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+
+.orcamento-infos p {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}

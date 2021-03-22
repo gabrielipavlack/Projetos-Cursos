@@ -1,0 +1,44 @@
+.interna_sobre {
+  background: url("../img/about/about-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.missao-sobre {
+  padding-top: 60px;
+}
+
+.missao-sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.missao-sobre ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.foto-about {
+  padding-top: 15px;
+}
+
+.qualidade-sobre img {
+  margin: 0 auto;
+}
+.qualidade-sobre {
+  padding: 3.75em 0;
+}
+.qualidade-sobre:after {
+  content: "";
+  width: 39.625em;
+  height: 5.1875em;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  /* posicionar em cima da logo amarelo */
+  position: absolute;
+  top: 15.6875em;
+  right: 10.625em;
+  z-index: -1;
+}

@@ -1,0 +1,112 @@
+.interna_contato {
+  background: url("../img/contact/retro-1.jpg") no-repeat center;
+  background-size: cover; /* expande o máximo em telas maiores; deve ser colocado abaixo do background */
+}
+
+/*Formulário orçamento */
+
+.contato {
+  padding: 40px 0;
+  background: #000;
+}
+
+.contato-form {
+  padding-right: 60x;
+}
+
+.contato-form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contato-form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato-form textarea {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  height: 120px;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato-form button {
+  background: none;
+  padding: 7px 30px;
+}
+
+.contato-infos {
+  color: #fff;
+  padding-left: 45px;
+}
+
+.contato-infos h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.contato-infos span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+/* IMPORTANTE: */
+.contato-infos span:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.contato-infos span:nth-of-type(4) {
+  margin-bottom: 25px;
+}
+.contato-infos p {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.contato-infos ul {
+  margin-top: 15px;
+}
+
+.contato-infos ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contato-infos ul li a {
+  display: block;
+  border: 3px solid #fec63e;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.contato-infos ul li a:hover {
+  border-color: white;
+}
+
+.contato-mapa {
+  margin-top: 60px;
+}
