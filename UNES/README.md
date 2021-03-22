@@ -1,6 +1,6 @@
 
 # Universidade UNES
-Este projeto consiste na criação de um website para uma universidade fictícia a fim de treinar os conhecimentos em HTML5. Dessa forma, o site todo é feito usando apenas HTML5, sem estilos de CSS.
+Este projeto consiste na criação de um website para uma universidade fictícia a fim de treinar os conhecimentos em HTML5. Dessa forma, o site todo é feito usando <strong>apenas HTML5,</strong> sem estilos de CSS.
 
 <h2>O projeto:</h2>
 
